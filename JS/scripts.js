@@ -21,7 +21,7 @@ function czasDoWydarzenia(rok, miesiac, dzien, godzina, minuta, sekunda, milisek
 		if (sLeft < 10)
 		  sLeft = "0" + sLeft;
 		
-		return dLeft + " : " + hLeft + " : " + minLeft + " : " + sLeft;
+		return dLeft + " dni " + hLeft + " godzin " + minLeft + " minut i " + sLeft + " sekundy!";
 	}
   
 	else
