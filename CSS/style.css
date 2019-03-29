@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;  
+}
+html {
+    height: 100%;
+    bottom: 0px;
+}
+body {
+    background-image: url(../Creta.jpg);
+    background-size: cover;
+}
+.container {
+    font-weight: 900;
+    font-size: x-large;
+    display: block;
+    opacity: 0.7;
+    margin-top: 20%;
+    height: 250px;
+    border-radius: 35px;
+    width: 350Px;
+    background: lightgray;
+    text-align: center;
+}
+.massage {
+    padding-top: 20%;
+}
