@@ -37,4 +37,7 @@ body {
     body {
         background-position: center;
     }
+    .massage {
+        padding-top: 15%;
+    }
 }
