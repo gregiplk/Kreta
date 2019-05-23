@@ -31,6 +31,6 @@ function czasDoWydarzenia(rok, miesiac, dzien, godzina, minuta, sekunda, milisek
 window.onload = function()
 {
 	idElement = "text";
-	document.getElementById(idElement).innerHTML = czasDoWydarzenia(2012, 04, 13, 19, 0, 0, 0);
-	setInterval("document.getElementById(idElement).innerHTML = czasDoWydarzenia(2012, 04, 13, 19, 0, 0, 0)", 1000);
+	document.getElementById(idElement).innerHTML = czasDoWydarzenia(2020, 04, 13, 19, 0, 0, 0);
+	setInterval("document.getElementById(idElement).innerHTML = czasDoWydarzenia(2020, 04, 13, 19, 0, 0, 0)", 1000);
 };
