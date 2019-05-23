@@ -25,12 +25,12 @@ function czasDoWydarzenia(rok, miesiac, dzien, godzina, minuta, sekunda, milisek
 	}
   
 	else
-		return "No i w PIZDU wylądowali :D";
+		return "No i po wakacjach...";
 }
 					
 window.onload = function()
 {
 	idElement = "text";
-	document.getElementById(idElement).innerHTML = czasDoWydarzenia(2019, 04, 13, 19, 0, 0, 0);
-	setInterval("document.getElementById(idElement).innerHTML = czasDoWydarzenia(2019, 04, 13, 19, 0, 0, 0)", 1000);
+	document.getElementById(idElement).innerHTML = czasDoWydarzenia(2012, 04, 13, 19, 0, 0, 0);
+	setInterval("document.getElementById(idElement).innerHTML = czasDoWydarzenia(2012, 04, 13, 19, 0, 0, 0)", 1000);
 };
